@@ -1,39 +1,20 @@
-# Welcome to ASP.NET Core
+# Welcome to the Simple Todo List in Angular 2
 
-We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
+## What is this?
 
-You've created a new ASP.NET Core project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
+This site is an example of how to create a simple todo list using [Angular 2](http://www.angular.io) and [ASP.NET Core](http://dotnet.github.io)
+I wanted to show basic CRUD functionality as well a simple routing and then compare and contrast this implementation to an [Angular1](http://www.angularjs.org) solution.
+ 
+I used Sqlite for the DB and Entity Framework for DB Connectivity.
+I also employed the repository pattern for the DB connection code and registered the Interface for the repository in Startup.cs.
 
-## This application consists of:
+Please note that this is just a simple implementation and there are many ways to do this (as is the case with all software).
+This is not meant to be a reference implementation. U assume all risk..;)
 
-*   Sample pages using ASP.NET Core MVC
-*   [Gulp](https://go.microsoft.com/fwlink/?LinkId=518007) and [Bower](https://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side libraries
-*   Theming using [Bootstrap](https://go.microsoft.com/fwlink/?LinkID=398939)
+##why was it created?
 
-## How to
+This simple project was created in order to show the differences between building a simple todo list using Angular 2 and Angular 1.
+[You can see the Angular 1 version of the site here](http://github.com/aritzcovan/SimpleTodoAngular1) and [get the code for both sites on Github.com](http://github.com/aritzcovan)
 
-*   [Add a Controller and View](https://go.microsoft.com/fwlink/?LinkID=398600)
-*   [Add an appsetting in config and access it in app.](https://go.microsoft.com/fwlink/?LinkID=699562)
-*   [Manage User Secrets using Secret Manager.](https://go.microsoft.com/fwlink/?LinkId=699315)
-*   [Use logging to log a message.](https://go.microsoft.com/fwlink/?LinkId=699316)
-*   [Add packages using NuGet.](https://go.microsoft.com/fwlink/?LinkId=699317)
-*   [Add client packages using Bower.](https://go.microsoft.com/fwlink/?LinkId=699318)
-*   [Target development, staging or production environment.](https://go.microsoft.com/fwlink/?LinkId=699319)
-
-## Overview
-
-*   [Conceptual overview of what is ASP.NET Core](https://go.microsoft.com/fwlink/?LinkId=518008)
-*   [Fundamentals of ASP.NET Core such as Startup and middleware.](https://go.microsoft.com/fwlink/?LinkId=699320)
-*   [Working with Data](https://go.microsoft.com/fwlink/?LinkId=398602)
-*   [Security](https://go.microsoft.com/fwlink/?LinkId=398603)
-*   [Client side development](https://go.microsoft.com/fwlink/?LinkID=699321)
-*   [Develop on different platforms](https://go.microsoft.com/fwlink/?LinkID=699322)
-*   [Read more on the documentation site](https://go.microsoft.com/fwlink/?LinkID=699323)
-
-## Run & Deploy
-
-*   [Run your app](https://go.microsoft.com/fwlink/?LinkID=517851)
-*   [Run tools such as EF migrations and more](https://go.microsoft.com/fwlink/?LinkID=517853)
-*   [Publish to Microsoft Azure Web Apps](https://go.microsoft.com/fwlink/?LinkID=398609)
-
-We would love to hear your [feedback](https://go.microsoft.com/fwlink/?LinkId=518015)
+Im happy to answer any questions of field any comments. 
+[contact me here](http://www.ritzcovan.com/contact)
