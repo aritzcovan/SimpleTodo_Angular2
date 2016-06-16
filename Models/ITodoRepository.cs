@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 
-
 namespace SimpTodoAngular2.Models
 {
     public interface ITodoRepository
@@ -9,7 +8,6 @@ namespace SimpTodoAngular2.Models
         DbSet<TodoItem> GetAll();
         bool UpdateTodo(TodoItem item);
         bool DeleteTodo(string id);
-        bool MarkComplete(TodoItem item);
         TodoItem Get(int id);
     }
 }
